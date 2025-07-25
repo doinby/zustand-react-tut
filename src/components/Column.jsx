@@ -5,7 +5,6 @@ export default function Column({ state, setNewState }) {
 	const tasks = useStore((store) => store.tasks).filter(
 		(task) => task.state === state
 	);
-	const addTask = useStore((store) => store.addTask);
 
 	return (
 		<>
