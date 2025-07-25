@@ -10,7 +10,7 @@ export default function App() {
 
 	return (
 		<>
-			<main className='flex gap-12'>
+			<main className='flex gap-12 items-center justify-center'>
 				{states.map((state) => (
 					<Column key={state} state={state} setNewState={setNewState} />
 				))}

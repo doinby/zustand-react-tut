@@ -8,7 +8,7 @@ export default function Column({ state, setNewState }) {
 
 	return (
 		<>
-			<section className='min-h-84 min-w-56 p-4 space-y-2 rounded shadow-sm bg-slate-50 dark:bg-slate-700 '>
+			<section className='min-h-84 w-56 p-4 space-y-2 rounded shadow-sm bg-slate-50 dark:bg-slate-700 '>
 				<div className='flex items-center justify-between'>
 					<h2 className='text-lg text-center font-black'>{state}</h2>
 					<button
